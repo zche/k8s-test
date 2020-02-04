@@ -17,7 +17,7 @@ spec:
     spec:
       containers: 
       - name: k8s-test
-        image: registry.check.com/netcore/k8s-test
+        image: registry.check.com/netcore/k8s-test:<BUILD_TAG>
         ports:
         - containerPort: 80
         imagePullPolicy: IfNotPresent
